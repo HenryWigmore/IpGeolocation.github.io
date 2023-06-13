@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Nanum+Pen+Script&family=Oswald&family=Ubuntu&display=swap');
+
+html {
+    height: 100%;
+}
+
+body {
+    background: #2c2c2c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Fasthand', cursive;
+    font-family: 'Nanum Pen Script', cursive;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+    color: white;
+    font-size: 5vw;
+}
+
+.cont {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #d4d4d4;
+    height: 60vh;
+    width: 40vw;
+    border-radius: 2vw;
+    padding-top: 1.5vw;
+}
+
+.searchCont {
+
+    width: 35vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ip-input {
+    top: 0;
+    width: 30vw;
+    height: 6vh;
+    border: none;   
+    font-size: 1.5vw;
+    border-radius: 4vw;
+    outline: none;
+    padding-left: 20px;
+}
+
+.ip-input-button {
+    outline: none;
+    border:none;
+    margin-left: 1vw;
+    background-color: #40aac5;
+    width: 6vh;
+    height: 6vh;
+    border-radius: 100%;
+    padding-bottom: 1vh;
+}
+
+.dataCont {
+    padding-top: 1vh;
+    font-size: 0.8vw;
+    font-weight: 500;
+}
+
+.dataCont-Grid {
+    width: 35vw;
+    display: grid;
+    grid-template-areas: 
+        "continent  country"
+        "city   zipcode"
+        "lat    long" 
+    ;
+    grid-template-columns: 3fr 3fr;
+    grid-template-rows: 10vh 10vh;
+}
+
+p {
+    margin-top: 1.5vh;
+    font-size: 1.5vw;
+    font-weight: 600;
+}
+

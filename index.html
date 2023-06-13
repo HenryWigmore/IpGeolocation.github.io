@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./script.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    </link>
+</head>
+
+<body>
+    <h1>Ip Geolocator</h1>
+    <div class="cont">
+        <div class="searchCont">
+            <input placeholder="Enter Ip Address" class="ip-input" type="text" id="iP">
+            <button class="ip-input-button" onclick="fetchIP()"></button>
+        </div>
+
+        <div class="dataCont-Grid">
+            <div class="dataCont">Continent
+                <p id="continent">Continent</p>
+            </div>
+            <div class="dataCont">Country
+                <p id="country">Country</p>
+            </div>
+            <div class="dataCont">City
+                <p id="city">City</p>
+            </div>
+            <div class="dataCont">Zipcode
+                <p id="zipcode">zip</p>
+            </div>
+            <div class="dataCont">Latitude
+                <p id="lat">latitude</p>
+            </div>
+            <div class="dataCont">Longitude
+                <p id="long">longitude</p>
+            </div>
+        </div>
+
+
+    </div>
+</body>
+
+</html>
